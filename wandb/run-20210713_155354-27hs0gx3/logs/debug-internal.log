@@ -1,0 +1,65 @@
+2021-07-13 15:53:55,302 INFO    MainThread:3447 [internal.py:wandb_internal():88] W&B internal server running at pid: 3447, started at: 2021-07-13 15:53:55.301969
+2021-07-13 15:53:55,307 INFO    WriterThread:3447 [datastore.py:open_for_write():80] open: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/run-27hs0gx3.wandb
+2021-07-13 15:53:55,307 DEBUG   HandlerThread:3447 [handler.py:handle_request():124] handle_request: check_version
+2021-07-13 15:53:55,309 DEBUG   SenderThread:3447 [sender.py:send():179] send: header
+2021-07-13 15:53:55,309 DEBUG   SenderThread:3447 [sender.py:send_request():193] send_request: check_version
+2021-07-13 15:53:55,361 DEBUG   SenderThread:3447 [sender.py:send():179] send: run
+2021-07-13 15:53:55,480 DEBUG   HandlerThread:3447 [handler.py:handle_request():124] handle_request: run_start
+2021-07-13 15:53:55,480 INFO    SenderThread:3447 [dir_watcher.py:__init__():168] watching files in: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files
+2021-07-13 15:53:55,481 INFO    SenderThread:3447 [sender.py:_start_run_threads():716] run started: 27hs0gx3 with start time 1626206034
+2021-07-13 15:53:55,483 DEBUG   SenderThread:3447 [sender.py:send():179] send: summary
+2021-07-13 15:53:55,483 DEBUG   HandlerThread:3447 [meta.py:__init__():39] meta init
+2021-07-13 15:53:55,484 DEBUG   HandlerThread:3447 [meta.py:__init__():53] meta init done
+2021-07-13 15:53:55,484 DEBUG   HandlerThread:3447 [meta.py:probe():210] probe
+2021-07-13 15:53:55,487 INFO    SenderThread:3447 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-13 15:53:55,488 DEBUG   HandlerThread:3447 [meta.py:_setup_git():200] setup git
+2021-07-13 15:53:55,501 DEBUG   HandlerThread:3447 [meta.py:_setup_git():207] setup git done
+2021-07-13 15:53:55,501 DEBUG   HandlerThread:3447 [meta.py:_save_pip():57] save pip
+2021-07-13 15:53:55,501 DEBUG   HandlerThread:3447 [meta.py:_save_pip():71] save pip done
+2021-07-13 15:53:55,501 DEBUG   HandlerThread:3447 [meta.py:probe():252] probe done
+2021-07-13 15:53:55,506 DEBUG   SenderThread:3447 [sender.py:send():179] send: files
+2021-07-13 15:53:55,507 INFO    SenderThread:3447 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-07-13 15:53:55,514 DEBUG   HandlerThread:3447 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-13 15:53:55,515 DEBUG   SenderThread:3447 [sender.py:send_request():193] send_request: stop_status
+2021-07-13 15:53:55,720 DEBUG   SenderThread:3447 [sender.py:send():179] send: history
+2021-07-13 15:53:55,721 DEBUG   SenderThread:3447 [sender.py:send():179] send: summary
+2021-07-13 15:53:55,722 INFO    SenderThread:3447 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-13 15:53:55,818 INFO    Thread-11 :3447 [upload_job.py:push():137] Uploaded file /tmp/tmpx5opclp0wandb/42m86948-wandb-metadata.json
+2021-07-13 15:53:56,481 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_created():216] file/dir created: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/wandb-metadata.json
+2021-07-13 15:53:56,481 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_created():216] file/dir created: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/wandb-summary.json
+2021-07-13 15:53:56,481 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_created():216] file/dir created: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/requirements.txt
+2021-07-13 15:53:56,482 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_created():216] file/dir created: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/output.log
+2021-07-13 15:53:58,481 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/output.log
+2021-07-13 15:54:00,482 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/output.log
+2021-07-13 15:54:02,483 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/output.log
+2021-07-13 15:54:04,484 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/output.log
+2021-07-13 15:54:05,759 DEBUG   SenderThread:3447 [sender.py:send():179] send: history
+2021-07-13 15:54:05,759 DEBUG   SenderThread:3447 [sender.py:send():179] send: summary
+2021-07-13 15:54:05,760 INFO    SenderThread:3447 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-13 15:54:06,486 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/wandb-summary.json
+2021-07-13 15:54:06,486 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/output.log
+2021-07-13 15:54:08,487 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/output.log
+2021-07-13 15:54:10,488 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/output.log
+2021-07-13 15:54:10,597 DEBUG   HandlerThread:3447 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-13 15:54:10,598 DEBUG   SenderThread:3447 [sender.py:send_request():193] send_request: stop_status
+2021-07-13 15:54:11,878 WARNING MainThread:3447 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2021-07-13 15:54:12,490 INFO    Thread-8  :3447 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/output.log
+2021-07-13 15:54:12,836 WARNING MainThread:3447 [internal.py:wandb_internal():147] Internal process interrupt: 2
+2021-07-13 15:54:12,836 ERROR   MainThread:3447 [internal.py:wandb_internal():150] Internal process interrupted.
+2021-07-13 15:54:13,542 INFO    SenderThread:3447 [sender.py:finish():945] shutting down sender
+2021-07-13 15:54:13,543 INFO    SenderThread:3447 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-07-13 15:54:13,544 INFO    HandlerThread:3447 [handler.py:finish():638] shutting down handler
+2021-07-13 15:54:13,544 INFO    WriterThread:3447 [datastore.py:close():288] close: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/run-27hs0gx3.wandb
+2021-07-13 15:54:14,491 INFO    SenderThread:3447 [dir_watcher.py:finish():312] scan: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files
+2021-07-13 15:54:14,492 INFO    SenderThread:3447 [dir_watcher.py:finish():318] scan save: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/output.log output.log
+2021-07-13 15:54:14,492 INFO    SenderThread:3447 [dir_watcher.py:finish():318] scan save: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/config.yaml config.yaml
+2021-07-13 15:54:14,492 INFO    SenderThread:3447 [dir_watcher.py:finish():318] scan save: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/wandb-metadata.json wandb-metadata.json
+2021-07-13 15:54:14,493 INFO    SenderThread:3447 [dir_watcher.py:finish():318] scan save: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/requirements.txt requirements.txt
+2021-07-13 15:54:14,493 INFO    SenderThread:3447 [dir_watcher.py:finish():318] scan save: /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/wandb-summary.json wandb-summary.json
+2021-07-13 15:54:14,503 INFO    SenderThread:3447 [file_pusher.py:finish():177] shutting down file pusher
+2021-07-13 15:54:14,504 INFO    SenderThread:3447 [file_pusher.py:join():182] waiting for file pusher
+2021-07-13 15:54:14,845 INFO    Thread-13 :3447 [upload_job.py:push():137] Uploaded file /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/config.yaml
+2021-07-13 15:54:14,850 INFO    Thread-14 :3447 [upload_job.py:push():137] Uploaded file /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/requirements.txt
+2021-07-13 15:54:14,853 INFO    Thread-12 :3447 [upload_job.py:push():137] Uploaded file /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/output.log
+2021-07-13 15:54:14,860 INFO    Thread-15 :3447 [upload_job.py:push():137] Uploaded file /home/prashant/compute-canada-tutorial/wandb/run-20210713_155354-27hs0gx3/files/wandb-summary.json
+2021-07-13 15:54:15,560 INFO    MainThread:3447 [internal.py:handle_exit():78] Internal process exited
