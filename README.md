@@ -1,19 +1,20 @@
-## A Complete Guide for using Compute Canada for Deep Learning !
+# A Complete Guide for using Compute Canada for Deep Learning !
 
- https://prashp.gitlab.io/post/compute-canada-tut/ ###
+### https://prashp.gitlab.io/post/compute-canada-tut/ ###
 
 Posted on July 7, 2021
+
 Prashant Pandey
 
-# Table of Contents
+## Table of Contents
 
-# 1. Introduction
+### 1. Introduction
 
 1.1. Table of Contents
 
-# 2. Terminology
+### 2. Terminology
 
-# 3. Setting up your environment
+### 3. Setting up your environment
 
 3.1. Getting a Compute Canada account
 
@@ -35,7 +36,7 @@ Prashant Pandey
 
 3.6.2. Weights & Biases (wandb)
 
-# 4. Transferring files between your PC and Compute Canada
+### 4. Transferring files between your PC and Compute Canada
 
 4.1. Filesystem on Compute Canada
 
@@ -43,7 +44,7 @@ Prashant Pandey
 
 4.3. Large binary files (images, videos, saved models, etc.)
 
-# 5. Submitting Jobs on Compute Canada
+### 5. Submitting Jobs on Compute Canada
 
 5.1. Environment Variables to Save Time
 
@@ -61,13 +62,13 @@ Prashant Pandey
 
 5.4.1. Additional tips:
 
-# 6. Monitoring your Learning Scripts
+### 6. Monitoring your Learning Scripts
 
 6.1. Basic monitoring with built-in Compute Canada Commands
 
 6.2. Deep Learning Monitoring using Weights & Biases
 
-# 7. Putting it Together - Video Demos
+### 7. Putting it Together - Video Demos
 
 7.1. Submitting and monitoring using a batch script
 
